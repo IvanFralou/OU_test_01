@@ -2,14 +2,16 @@
 
 using namespace std;
 
+int Policz(int a, int b) {
+    return a * b;
+}
+
 int main() {
-    auto lang = "C++";
-    cout << "Hello and welcome to " << lang << "!\n";
-
-    for (int i = 1; i <= 5; i++) {
-        cout << "i = " << i << std::endl;
-    }
-
+    cout << "Hello World!" << endl;
+    cout << "W pierwszym branchu; 2*3=" << Policz(2,3) << endl;
     return 0;
 }
+
+
+
 
